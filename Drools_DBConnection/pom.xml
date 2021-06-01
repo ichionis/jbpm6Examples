@@ -3,6 +3,12 @@
   <groupId>com.sample</groupId>
   <artifactId>Drools_DBConnection</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+  <properties> 
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+ </properties>
+
   <dependencies>
   	<dependency>
   		<groupId>org.kie</groupId>
@@ -15,9 +21,9 @@
   		<version>6.5.0.Final</version>
   	</dependency>
   	<dependency>
-  		<groupId>mysql</groupId>
-  		<artifactId>mysql-connector-java</artifactId>
-  		<version>5.1.27</version>
-  	</dependency>
+		<groupId>com.microsoft.sqlserver</groupId>
+		<artifactId>sqljdbc4</artifactId>
+		<version>4.0</version>
+	  </dependency>
   </dependencies>
 </project>
